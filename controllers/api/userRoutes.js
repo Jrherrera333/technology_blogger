@@ -50,4 +50,8 @@ router.post('/logout', (req, res) => {
   }
 });
 
+router.post('/user', (req, res) => {
+console.log(req);
+res.status(200).end();
+});
 module.exports = router;
